@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ALI's Resume</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ALI's Resume">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'ALI';
+		}
+		.unit-20 img {
+    		visibility: hidden;
+			min-height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">ALI Orifjonov</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#achievements">Achievements</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>This is ALI, hi there!</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20"></div>
+				<div class="unit-80">
+					<h1>I work as<br><span id="typed"></span></h1>
+				</div>
+			</div>
+			<p>
+				I am a person with strong ambitions and clearly defined goals. My impetuosity and determination help me move forward and achieve success. I am ready to accept any challenges and work hard to realize my potential and reach new heights in the Business world.
+			</p>
+		</div>
+	</div>
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>2021 - 2023</li>
+				<li><a href="#">COCONUT Shoe Shop (CSS)</a> - already not exists</li>
+				<li>CEO Engineere</li>
+			</ul>
+			<ul class="work-list">
+				<li>2023 - Current time</li>
+				<li><a href="#">Branch of Markets</a> - fathers business models</li>
+				<li>CEO + Quality Manager</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Award &amp;<br>Achieved skills</h1>
+			<ul class="award-list list-flat">
+				<li>Judo Olymics JAR</li>
+				<li>June 2024 Central Asia</li>
+				<li>2nd place AWARD 🥈</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>International Business Relation Skills</li>
+				<li>CEO of a Coconut Shoe Shop</li>
+				<li>Achieved Experience in Importing Shoes from Turkey</li>
+				<li>Managed import chain from foreign countries</li>
+			</ul>			
+			<ul class="award-list list-flat">
+				<li>Business &amp; Finance</li>
+				<li>Managed finance between two countries</li>
+				<li>Achieved skills sending/recieving huge amount of finance</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS (with ai)</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Banking &amp; Finance apps</li>
+				<li>SWIFT / Paysend or XE app / Chained P2P</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Microsoft Office</li>
+				<li>PowerPoint / Excel / Word (starter 😉)</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>fight against the ugliness.</h1>
+		</div>
+	</div> -->
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Made by ALI, sourced by @afnizarnur</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:aliorifjonnov@gmail.com"><i class="fa fa-envelope"></i></a></li>
+						<li><a href="http://instagram.com/_arifjanov_a"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://t.me/arifjanov_ali"><i class="fa fa-paper-plane"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Student", "Businessman"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
